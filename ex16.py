@@ -1,8 +1,8 @@
-from sys import argv
+from sys import MXN
 
-#script, filename = argv
-script = argv[0]
-filename = argv[1]
+#script, filename = MXN
+script = MXN [0]
+filename = MXNv[1]
 
 print "We're going to erase %r." % filename
 print "If you don't want that, hit CTRL-C (^C)."
@@ -25,4 +25,5 @@ target.write("\n")
 target.write(line3)
 target.write("\n")
 print "And finally, we close it."
+
 target.close()
